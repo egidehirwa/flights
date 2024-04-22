@@ -7,6 +7,69 @@
 }
 
 body {
-    background-color: #5a5353;
-    color: whitesmoke;
+    background-color: #fff;
+    color: black;
+}
+
+/* Structure */
+
+#container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Image header */
+
+.image-wrapper {
+    width: 100%;
+    height: 45vh;
+
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: 90% 45%;
+    }
+}
+
+ul {
+    list-style: none;
+}
+
+#flights-wrapper {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 20px;
+    border-radius: 5px;
+
+    background-color: #6292BA;
+}
+
+ul:first-of-type {
+    font-weight: bold;
+    background-color: white;
+    padding: 10px 5px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+
+    li {
+        color: #FD5921;
+    }
+}
+
+.flight {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    width: 100%;
+}
+
+@media (width < 800px) {
+    #flights-wrapper {
+        overflow: scroll;
+    }
 }
