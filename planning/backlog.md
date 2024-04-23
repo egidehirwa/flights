@@ -2,12 +2,12 @@
 
 ## Must-Haves
 
-> these are necessary for basic usability
+> Should display all the flights dynamically (Even when a new one is added to the list).
 
 ## Should-Haves
 
-> these will complete the user experience, but are not necessary
+> Have an image of a plane
 
 ## Could-Haves
 
-> would be really cool ... if there's time
+> Style the page so that it becomes visually pleasing.

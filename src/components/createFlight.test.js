@@ -2,14 +2,21 @@
  * @jest-environment jsdom
  */
 
-import createUser from './createUser.js';
+import createFlight from "./createFlight.js";
 
-describe('create a user component ', () => {
-    test('name -> John', () => {
-        const user = createUser({ name: 'John' });
-        expect(user.nodeName).toEqual('DIV');
-        expect(user.childElementCount).toEqual(1);
-        expect(user.children[0].nodeName).toEqual('H4');
-        expect(user.children[0].innerText).toEqual('John');
-    });
-});
+describe('create a user component', () => {
+    const flightComponent = createFlight({
+            id: 1,
+            name: 'VQ-903',
+            plane: 'ATR725',
+            departureDate: '2023-08-05 13:45:00',
+            origin: 'DAC',
+            arrivalDate: '2023-08-05 14:40:00',
+            destination: 'CGP',
+            stops: 0,
+    })
+
+    test('NodeName -> UL', () => {
+        expect(flightComponent.nodeName).toEqual('UL');
+    })
+})

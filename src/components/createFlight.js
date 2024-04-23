@@ -1,3 +1,9 @@
+/**
+ * Create a flight Dom element.
+ * @param {object} flight - flight object.
+ * @returns {HTMLElement} - flight element.
+ */
+
 const createFlight = (flight) => {
             // CREATE CONTAINER
             const flightContainer = document.createElement('ul');
