@@ -1,3 +1,3 @@
 ## Design
 
-![Page wireframe](assets/flights-ux.jpg)
+![Page wireframe](../assets/flights-ux.jpg)
