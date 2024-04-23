@@ -2,12 +2,18 @@
 
 ## Must-Haves
 
-> Should display all the flights dynamically (Even when a new one is added to the list).
+- Display relevant flight informations
+- Dynamically update informations
+- Filtering options
 
 ## Should-Haves
 
-> Have an image of a plane
+- Delete an option
+- Search for a new flight
+- Flight schedule (On time or late)
 
 ## Could-Haves
 
-> Style the page so that it becomes visually pleasing.
+- Personalized informations
+    - Seatings
+    - Hotel booking at arrival

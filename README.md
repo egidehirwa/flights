@@ -1,6 +1,8 @@
 # Image gallery
 
-> A simple
+![Flights project](assets/flights-screenshot.jpg)
+
+> A page displaying flight times.
 
 ## Table of contents
 
@@ -18,9 +20,6 @@
 > The objective of the project is to practice separation of concern in
 > JavaScript.
 
-## Screenshots
-
-![Example screenshot]()
 
 ## Technologies
 
@@ -31,27 +30,26 @@
 
 ## Setup
 
-clone the repo and start using the stop watch.
+clone the repo and use npm init to initialize the project (install all the dependencies).
 
 ## Code Examples
 
 ```js
-
+const loadEvent = () => {
+    window.addEventListener('load', loadHandler);
+}
 ```
 
 ## Features
 
 List of features ready and Todos for future development
 
--
--
--
+- Follow all flight details fron one table.
 
 To-do list:
 
--
--
+- Add a delete button for each line of flight.
 
 ## Status
 
-Project is: _in progress_
+Project is: completed

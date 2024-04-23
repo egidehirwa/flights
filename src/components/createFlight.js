@@ -1,5 +1,6 @@
 /**
  * Create a flight Dom element.
+ * 
  * @param {object} flight - flight object.
  * @returns {HTMLElement} - flight element.
  */
